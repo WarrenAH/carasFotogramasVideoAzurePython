@@ -15,7 +15,7 @@ El programa cuenta con dos funciones, la primera es ejecutar el programa en form
 ## ¿Por qué utilizar multiprocesamiento en los programas?
 Gracias al multiprocesamiento podemos acortar el tiempo de ejecución de un programa según la situación que se presente, por ejemplo: 
 
-Este programa se ejecutó en una computadora con las siguientes características:
+Computadora utilizada:
 - Sistema operativo: Windows 10 64 Bits 19043.1288 (21H1)
 - RAM: 8 GB
 - Procesador: Intel Core i5 4570
