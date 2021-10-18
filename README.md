@@ -28,6 +28,7 @@ Cantidad de videos utilizados:
 - 2
 
 Características de cada video utilizado:
+
 1.
 - Duración: 7:49 (siete minutos con cuarenta y nueve segundos)
 - Tamaño: 854 x 480
