@@ -1,6 +1,6 @@
 # carasFotogramasVideoAzurePython
 
-## Librerías utilizadas
+## ¿Cuáles librerías fueron utilizadas?
 El programa dentro de la carpeta "Scripts" tiene un intérprete de Python el cual maneja todas las librerías utilizadas, en caso de que no se deseen utilizar y se quiere utilizar un interprete propio se requieren las siguientes librerías:
 
   1. opencv-python
@@ -14,7 +14,7 @@ El programa cuenta con dos funciones, la primera es ejecutar el programa en form
 
 ## ¿Por qué utilizar multiprocesamiento en los programas?
 Gracias al multiprocesamiento podemos acortar el tiempo de ejecución de un programa, por ejemplo, este programa se ejecutó en una computadora con las siguientes características:
-
+- Sistema operativo: Windows 10 64 Bits 19043.1288 (21H1)
 - RAM: 8 GB
 - Procesador: Intel Core i5 4570
 - GPU: NVIDIA GT 1030 GDDR5 2 GB
