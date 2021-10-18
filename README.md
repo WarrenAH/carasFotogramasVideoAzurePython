@@ -28,12 +28,12 @@ Cantidad de videos utilizados:
 - 2
 
 Características de cada video utilizado:
-1:
+1.
 - Duración: 7:49 (siete minutos con cuarenta y nueve segundos)
 - Tamaño: 854 x 480
 - Peso: 40.2 MB
 
-2:
+2.
 - Duración: 9:25 (nueve minutos con veinticinco segundos)
 - Tamaño: 854 x 480
 - Peso: 59.5 MB
