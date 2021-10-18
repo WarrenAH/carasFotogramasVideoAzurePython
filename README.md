@@ -15,10 +15,10 @@ El programa cuenta con dos funciones, la primera es ejecutar el programa en form
 ## ¿Por qué utilizar multiprocesamiento en los programas?
 Gracias al multiprocesamiento podemos acortar el tiempo de ejecución de un programa, por ejemplo, este programa se ejecutó en una computadora con las siguientes características:
 
-RAM: 8 GB
-Procesador: Intel Core i5 4570
-GPU: NVIDIA GT 1030 GDDR5 2 GB
-Disco duro: Teamgroup GX1 SATA 6Gb/s (SSD)
+- RAM: 8 GB
+- Procesador: Intel Core i5 4570
+- GPU: NVIDIA GT 1030 GDDR5 2 GB
+- Disco duro: Teamgroup GX1 SATA 6Gb/s (SSD)
 
 Cuando se ejecutó  el programa en forma secuencial se obtuvieron los siguientes resultados:
 ![Resultados en forma secuencial](formaSecuencial.png)
@@ -37,11 +37,11 @@ Cuando se ejecutó  el programa con el multiprocesamiento se obtuvieron los sigu
 8. Una vez generadas las carpetas se debe agregar a la carpeta "video" al menos un video, todos los videos deben utilizar el formato ".mp4".
 
 ## Videos de referencia
-En este primer video explico cómo hacer una cuenta de Microsoft Azure con Face API gratuitamente:
+- En este primer video explico cómo hacer una cuenta de Microsoft Azure con Face API gratuitamente:
 https://youtu.be/tZciSVSpGb8
 
-En este segundo video explico en forma general el código utilizado:
+- En este segundo video explico en forma general el código utilizado:
 https://youtu.be/vGPFLiTsKaQ
 
-En este tercer video explico cómo utilizar el programa en forma general:
+- En este tercer video explico cómo utilizar el programa en forma general:
 https://youtu.be/Y-8xLB0fc_M
