@@ -13,7 +13,9 @@ El programa utiliza el reconocimiento facial de Microsoft Azure mejor conocido c
 El programa cuenta con dos funciones, la primera es ejecutar el programa en forma secuencial, primero obtendrá los fotogramas del o los videos agregados en la carpeta “video”, una vez obtenidos verificará los fotogramas de uno en uno en búsqueda de caras. La segunda función es ejecutar el programa gracias al multiprocesamiento, esto hará que por cada fotograma que se haya obtenido en el momento pase por la verificación de caras. Cabe aclarar que la velocidad de internet también será responsable de la duración del programa, debido a que cada fotograma se envía a los servidores de Microsoft Azure con Face API para su respectivo análisis.
 
 ## ¿Por qué utilizar multiprocesamiento en los programas?
-Gracias al multiprocesamiento podemos acortar el tiempo de ejecución de un programa, por ejemplo, este programa se ejecutó en una computadora con las siguientes características:
+Gracias al multiprocesamiento podemos acortar el tiempo de ejecución de un programa según la situación que se presente, por ejemplo: 
+
+Este programa se ejecutó en una computadora con las siguientes características:
 - Sistema operativo: Windows 10 64 Bits 19043.1288 (21H1)
 - RAM: 8 GB
 - Procesador: Intel Core i5 4570
