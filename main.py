@@ -58,8 +58,8 @@ def crearEstadisticas():
     neutral = 0
     sadness = 0
     surprise =0
-    for i in agregarCaras:
-        faceAttributes = i['faceAttributes']
+    for cara in agregarCaras:
+        faceAttributes = cara['faceAttributes']
         emotions = faceAttributes['emotion']
 
         if emotions['anger']>=0.5:
