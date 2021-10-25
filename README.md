@@ -6,11 +6,13 @@ El programa dentro de la carpeta "Scripts" tiene un intérprete de Python el cua
   1. opencv-python
   2. requests
   3. cognitive-face
+  4. numpy
+  5. matplotlib
 
 ## ¿Cuál es la funcion del programa?
 El programa utiliza el reconocimiento facial de Microsoft Azure mejor conocido como Face API, en este caso, para detectar caras se utilizan videos en formato ".mp4"  que se guardaran en la carpeta “video” para obtener sus fotogramas por medio de una función, luego, son guardados en una carpeta llamada "fotograma" y en una subcarpeta de "fotogramaCara" llamada "temp". Una vez obtenidos esos fotogramas Face API verificara de uno en uno si hay una o múltiples caras, si hay se imprimirán datos en la consola como su edad o emociones, además, dibujara un cuadrado de la o caras detectadas en la imagen y se guardara en la carpeta "fotogramaCara", en caso contrario simplemente dirá que no se encuentra ninguna.
 
-El programa cuenta con dos funciones, la primera es ejecutar el programa en forma secuencial, primero obtendrá los fotogramas del o los videos agregados en la carpeta “video”, una vez obtenidos verificará los fotogramas de uno en uno en búsqueda de caras. La segunda función es ejecutar el programa gracias al multiprocesamiento, esto hará que por cada fotograma que se haya obtenido en el momento pase por la verificación de caras. Cabe aclarar que la velocidad de internet también será responsable de la duración del programa, debido a que cada fotograma se envía a los servidores de Microsoft Azure con Face API para su respectivo análisis.
+El programa cuenta con dos funciones, la primera es ejecutar el programa en forma secuencial, primero obtendrá los fotogramas del o los videos agregados en la carpeta “video”, una vez obtenidos verificará los fotogramas de uno en uno en búsqueda de caras. La segunda función es ejecutar el programa gracias al multiprocesamiento, esto hará que por cada fotograma que se haya obtenido en el momento pase por la verificación de caras. Cabe aclarar que la velocidad de internet también será responsable de la duración del programa, debido a que cada fotograma se envía a los servidores de Microsoft Azure con Face API para su respectivo análisis, también los videos que se utilizan para obtener los fotogramas podrán dar resultados distintos.
 
 ## ¿Por qué utilizar multiprocesamiento en los programas?
 Gracias al multiprocesamiento podemos acortar el tiempo de ejecución de un programa según la situación que se presente, por ejemplo: 
