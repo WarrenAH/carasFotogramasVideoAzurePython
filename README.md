@@ -69,3 +69,6 @@ https://youtu.be/vGPFLiTsKaQ
 
 - En este tercer video explico cómo utilizar el programa en forma general:
 https://youtu.be/Y-8xLB0fc_M
+
+- En este cuarto video explico las estadisticas de emociones del programa:
+https://youtu.be/oMrkToKz_aM
